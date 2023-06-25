@@ -40,3 +40,8 @@ Read instructions below for using assets from JavaScript and HTML.
 
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
+
+## Dependencies
+* `react-scripts`
+  * Scripts command to make easier life to build React applications. Check [here](https://www.npmjs.com/package/react-scripts)
+  *  
