@@ -43,5 +43,4 @@ They will not be included in the production build so you can use them for things
 
 ## Dependencies
 * `react-scripts`
-  * Scripts command to make easier life to build React applications. Check [here](https://www.npmjs.com/package/react-scripts)
-  *  
+  * Scripts command to make easier life to build React applications. Check [here](https://github.com/facebook/create-react-app/tree/main/packages/react-scripts)
