@@ -1,5 +1,15 @@
 Tic-Tac-Toe game
 
+# How to run locally?
+* `npm i`
+* `npm run start`
+  * Problems: "Unexpected token for <>"
+    * Attempt1: Adding `<script src="js/reactjs/main.js" type = "text/babel"></script>`. Check [here](https://stackoverflow.com/questions/20905227/reactjs-unexpected-token-error)
+    * Attempt2: Adding `<script type="text/jsx">`
+    * Attempt3: `npm install babel-preset-react`
+    * Attempt4: `/** @jsx React.DOM */` at top of your files
+
+
 # Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
