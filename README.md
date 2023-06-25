@@ -1,7 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
+Tic-Tac-Toe game
 
 # Notes
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 ## Folder Structure
 
 After creation, your project should look like this:
