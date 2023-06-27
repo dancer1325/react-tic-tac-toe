@@ -1,5 +1,4 @@
-// /** @jsx React.DOM */
-import { useState } from 'react';
+import {Fragment, useState} from 'react';
 
 function Square({ value, onSquareClick }) {
   return (
@@ -32,8 +31,8 @@ function Board({ xIsNext, squares, onPlay }) {
   }
 
   return (
-    <>
-      <div className="status">{status}</div>
+    <Fragment>
+      <div className="status">{status}</div>    {/* { variableOrExpression }   https://react.dev/learn#writing-markup-with-jsx */}
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
         <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
@@ -49,7 +48,7 @@ function Board({ xIsNext, squares, onPlay }) {
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
-    </>
+    </Fragment>
   );
 }
 
@@ -84,8 +83,8 @@ export default function Game() {
   });
 
   return (
-    <div className="game">
-      <div className="game-board">
+    <div className="game">      {/*  className     https://react.dev/reference/react-dom/components/common#common  */}
+      <div className="game-board">    {/* game-board      Where is it defined? */}
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
