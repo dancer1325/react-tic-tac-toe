@@ -1,4 +1,4 @@
-Tic-Tac-Toe game
+Tic-Tac-Toe game with a move history, to jump to different history point.
 
 # How to run locally?
 * `npm i`
