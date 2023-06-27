@@ -8,6 +8,7 @@ Tic-Tac-Toe game
     * Attempt2: Adding `<script type="text/jsx">`
     * Attempt3: `npm install babel-preset-react`
     * Attempt4: `/** @jsx React.DOM */` at top of your files
+    * Solution: ❓
 
 
 # Notes
