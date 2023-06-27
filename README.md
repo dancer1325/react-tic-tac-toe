@@ -1,6 +1,7 @@
 Tic-Tac-Toe game with a move history, to jump to different history point.
 
 # How to run locally?
+* Install Node.js
 * `npm i`
 * `npm run start`
   * Problems: "Unexpected token for <>"
