@@ -10,8 +10,7 @@ Tic-Tac-Toe game with a move history, to jump to different history point.
     * Attempt2: Adding `<script type="text/jsx">`
     * Attempt3: `npm install babel-preset-react`
     * Attempt4: `/** @jsx React.DOM */` at top of your files
-    * Solution: ❓
-
+    * Solution: ❓It already works
 
 # How was created?
 
